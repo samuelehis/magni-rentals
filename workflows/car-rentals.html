@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Magnicarz Car Rentals — premium chauffeur-driven vehicle rentals for business, events, airport movement, special occasions and personal mobility.">
+    <title>Car Rentals | Magnicarz</title>
+    <link rel="stylesheet" href="../workflow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .rental-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 54px;
+            padding: 0 30px;
+            border-radius: 999px;
+            border: 1px solid #e9bd5c;
+            background: #f7d887;
+            color: #17130b;
+            font-weight: 800;
+            letter-spacing: .02em;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .28);
+            transition: .2s ease
+        }
+
+        .rental-cta:hover,
+        .rental-cta:focus-visible {
+            background: #e9bd5c;
+            color: #080807;
+            transform: translateY(-2px);
+            box-shadow: 0 14px 34px rgba(233, 189, 92, .24)
+        }
+
+        .rental-purpose-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px
+        }
+
+        .rental-purpose {
+            padding: 21px 18px;
+            border-left: 2px solid #e9bd5c;
+            background: #0e0e0c;
+            border-radius: 0 12px 12px 0
+        }
+
+        .rental-purpose strong {
+            display: block;
+            color: #f7f6f2;
+            margin-bottom: 8px;
+            font-size: 13px;
+            letter-spacing: .06em
+        }
+
+        .rental-purpose span {
+            display: block;
+            color: #bdbbb5;
+            font-size: 14px
+        }
+
+        @media(max-width:900px) {
+            .rental-purpose-grid {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        @media(max-width:600px) {
+            .rental-purpose-grid {
+                grid-template-columns: 1fr
+            }
+
+            .rental-cta {
+                width: 100%;
+                min-height: 56px
+            }
+        }
+
+        @media(min-width:901px) {
+            .wf-hero .wf-grid {
+                grid-template-columns: 1fr 360px
+            }
+
+            .wf-hero .lead {
+                max-width: 820px
+            }
+
+            .section {
+                text-align: center
+            }
+
+            .section>.k,
+            .section>h2 {
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .cards,
+            .steps,
+            .rental-purpose-grid,
+            .feature-grid {
+                max-width: 1100px;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .card,
+            .step,
+            .feature,
+            .rental-purpose {
+                text-align: center
+            }
+
+            .chips {
+                justify-content: center
+            }
+
+            .section>.intro {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .section>.panel {
+                max-width: 1050px;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .notice {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center
+            }
+
+            .cta {
+                justify-content: center
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="wf-header">
+        <div class="wf-nav"><a class="wf-brand" href="../index.html"><span><strong>MAGNICARZ</strong><small>DRIVE A
+                        BETTER TOMORROW</small></span></a><a class="back" href="../index.html">← Services</a></div>
+    </header>
+
+    <section class="wf-hero">
+        <div class="wf-grid">
+            <div>
+                <div class="k">MAGNICARZ · CAR RENTALS</div>
+                <h1>Premium <span>mobility.</span><br>On your terms.</h1>
+                <p class="lead">Premium chauffeur-driven vehicles for business, events, airport movement, special
+                    occasions and personal mobility — available for 12-hour or 24-hour rental.</p>
+                <div class="cta"><a class="rental-cta" href="https://forms.cloud.microsoft/r/35iQXA9rFc" target="_blank"
+                        rel="noopener noreferrer">CHECK VEHICLE AVAILABILITY</a></div>
+            </div>
+            <aside class="panel">
+                <div class="num">01</div>
+                <h2>Premium Rental Experience</h2>
+                <p class="intro">Flexible rental duration, professional chauffeur support and a coordinated experience
+                    from enquiry through completion.</p>
+            </aside>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="k">RENTAL FEATURES</div>
+        <h2>Designed around your schedule.</h2>
+        <div class="cards">
+            <article class="card">
+                <h3>12 OR 24 HOURS</h3>
+                <p>Choose the rental duration that suits your schedule.</p>
+            </article>
+            <article class="card">
+                <h3>CHAUFFEUR INCLUDED</h3>
+                <p>Enjoy the journey with a professional chauffeur.</p>
+            </article>
+            <article class="card">
+                <h3>FUEL INCLUDED</h3>
+                <p>Fuel is included within your confirmed rental arrangement.</p>
+            </article>
+            <article class="card">
+                <h3>PREMIUM EXPERIENCE</h3>
+                <p>From enquiry to completion, we coordinate the experience around you.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="k">HOW IT WORKS</div>
+        <h2>From enquiry to your ride.</h2>
+        <div class="steps">
+            <div class="step"><b>01</b>
+                <h3>Tell Us What You Need</h3>
+                <p>Share your vehicle, date, duration and location.</p>
+            </div>
+            <div class="step"><b>02</b>
+                <h3>Check Availability</h3>
+                <p>We confirm suitable vehicle options and availability.</p>
+            </div>
+            <div class="step"><b>03</b>
+                <h3>Confirm Booking</h3>
+                <p>Review the arrangement and confirm your booking.</p>
+            </div>
+            <div class="step"><b>04</b>
+                <h3>We Handle the Details</h3>
+                <p>We coordinate the agreed rental arrangements.</p>
+            </div>
+            <div class="step"><b>05</b>
+                <h3>Enjoy Your Ride</h3>
+                <p>Travel with your professional chauffeur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="k">CHOOSE YOUR RENTAL EXPERIENCE</div>
+        <h2>Choose the duration that fits your day.</h2>
+        <div class="cards">
+            <article class="card">
+                <h3>12-HOUR RENTAL</h3>
+                <p>Ideal for business meetings, weddings, events, airport movement, photoshoots, day trips and personal
+                    engagements.</p>
+            </article>
+            <article class="card">
+                <h3>24-HOUR RENTAL</h3>
+                <p>Ideal for full-day schedules, multiple meetings, extended events, executive movement and longer
+                    engagements.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="k">VEHICLE OPTIONS</div>
+        <h2>What type of vehicle do you need?</h2>
+        <div class="chips"><span class="chip">Executive Sedans</span><span class="chip">Premium SUVs</span><span
+                class="chip">Luxury SUVs</span><span class="chip">Statement Vehicles</span></div>
+        <p class="intro">Not sure which vehicle suits your occasion? Tell us your destination, occasion and budget, and
+            we'll recommend suitable available options.</p>
+    </section>
+
+    <section class="section">
+        <div class="k">PERFECT FOR</div>
+        <h2>Premium mobility for every occasion.</h2>
+        <div class="rental-purpose-grid">
+            <div class="rental-purpose"><strong>BUSINESS</strong><span>Meetings, conferences &amp; executive
+                    movement</span></div>
+            <div class="rental-purpose"><strong>WEDDINGS</strong><span>Special occasions &amp; memorable arrivals</span>
+            </div>
+            <div class="rental-purpose"><strong>AIRPORT</strong><span>Comfortable airport transfers</span></div>
+            <div class="rental-purpose"><strong>EVENTS</strong><span>Dinners, concerts &amp; private events</span></div>
+            <div class="rental-purpose"><strong>PERSONAL</strong><span>Premium mobility for the day</span></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="k">BEFORE YOU ENQUIRE</div>
+        <h2>Have these details ready.</h2>
+        <div class="chips"><span class="chip">Vehicle / Category</span><span class="chip">Rental Date</span><span
+                class="chip">12 or 24 Hours</span><span class="chip">Pickup Location</span><span
+                class="chip">Destination / Itinerary</span><span class="chip">Number of Passengers</span></div>
+    </section>
+
+    <section class="section">
+        <div class="k">WHY MAGNICARZ?</div>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>FLEXIBILITY</h3>
+                <p>Choose a rental duration that fits your schedule.</p>
+            </div>
+            <div class="feature">
+                <h3>CHAUFFEUR SUPPORT</h3>
+                <p>Travel with professional chauffeur support included in the rental arrangement.</p>
+            </div>
+            <div class="feature">
+                <h3>COORDINATION</h3>
+                <p>We coordinate the experience from availability through completion.</p>
+            </div>
+            <div class="feature">
+                <h3>PREMIUM VEHICLES</h3>
+                <p>Access executive, premium and luxury vehicle options subject to availability.</p>
+            </div>
+            <div class="feature">
+                <h3>CONVENIENCE</h3>
+                <p>A streamlined rental journey for business, events and personal mobility.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="panel" style="text-align:center">
+            <div class="k">READY WHEN YOU ARE</div>
+            <h2>Check vehicle availability.</h2>
+            <p class="intro">Vehicle → Date → Duration → Location → Availability → Booking</p>
+            <div class="cta" style="justify-content:center"><a class="rental-cta"
+                    href="https://forms.cloud.microsoft/r/35iQXA9rFc" target="_blank" rel="noopener noreferrer">CHECK
+                    VEHICLE AVAILABILITY</a></div>
+        </div>
+        <div>
+             <p class="notice">All rentals are subject to vehicle availability, confirmed itinerary, applicable rental terms
+            and payment. Additional charges may apply where agreed rental duration, mileage/location conditions or other
+            confirmed terms are exceeded.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Magnicarz. All rights reserved.</p>
+    </footer>
+
+     <script src="app.js"></script>
+</body>
+
+</html>
